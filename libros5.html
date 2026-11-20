@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros de quinto semestre</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+
+    <header>
+        <h1>Librería Escolar</h1>
+        <p>Quinto semestre</p>
+    </header>
+
+    <main>
+
+        <section class="bienvenida">
+            <h2>Libros de quinto semestre</h2>
+            <p>Encuentra tus materiales escolares.</p>
+        </section>
+
+        <input type="text" id="buscador"
+        placeholder="Buscar un libro..." onkeyup="buscar()">
+
+        <div id="libros" class="catalogo"></div>
+
+        <section class="carrito">
+            <h2>Mi carrito</h2>
+
+            <div id="carrito">
+                Tu carrito está vacío.
+            </div>
+
+            <h3 id="total">Total: $0</h3>
+
+            <button onclick="vaciarCarrito()">Vaciar carrito</button>
+        </section>
+
+        <button class="volver" onclick="regresar()">
+            Volver al inicio
+        </button>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Librería Escolar</p>
+    </footer>
+
+    <script src="libros5.js"></script>
+
+</body>
+</html>

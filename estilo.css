@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://scontent-mia5-2.xx.fbcdn.net/v/t39.30808-6/487695638_1099643852180123_185358444776944904_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1282&ctp=s1280x1282&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=liN7GQfFLDgQ7kNvwFwn5st&_nc_oc=AdqBBeRbPneCKLFaL_Uh-lwLBmN9ipwuIka5YvLmBQbob8UKr9Olcimsf9EuNnjetLI&_nc_zt=23&_nc_ht=scontent-mia5-2.xx&_nc_gid=loDQ3p8cR4E2qG4DqgsYmg&_nc_ss=7b289&oh=00_AQSfrsQC6EFcGfqUZfSDkIzhttx9rnG_1Fzk7O0XL9x2uw&oe=6B062C0B");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #d9a1b7;
+    box-shadow: 0 8px 25px  #bd829b;
+    }
+
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #dfbdcb;
+}
+
+.btn-login {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.registro {
+    text-align: center;
+    margin-top: 20px;
+}
