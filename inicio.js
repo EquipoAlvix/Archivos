@@ -1,3 +1,4 @@
+//colaboradora: aliss
 let nombre = localStorage.getItem("nombre");
 
 if (nombre != null) {
